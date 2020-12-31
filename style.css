@@ -2,7 +2,7 @@
 
 /*START HEADER*/
   .masthead {
-    padding-top: calc(6rem + 74px);
+    padding-top: 4rem;
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -13,7 +13,7 @@
     font-size: 1.25rem;
   }
   .masthead .masthead-avatar {
-    width: 15rem;
+    width: 18rem;
   }
 
   .divider-custom {
@@ -48,3 +48,20 @@
     color: #fff !important;
   }
   /*END HEADER*/
+
+
+  /*START FOOTER*/
+  footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    background:#303030;
+
+  }
+
+  footer > p {
+    margin: 1rem;
+  }
+
+  /*END FOOTER*/
