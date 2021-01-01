@@ -1,9 +1,24 @@
 
 
+/********************************START GLOBAL DECLARATIONS********************************/
+
+/*Gradient color red-black*/
+  .transition {
+    background-color: #272822;
+    background-image: linear-gradient(326deg, #222 0%, #e74c3c 74%);
+  }
+
+  .main-color {
+    color: #e74c3c;
+  }
+
+/********************************END GLOBAL DECLARATIONS********************************/
+
+/********************************START INDEX********************************/
 /*START HEADER*/
   .masthead {
     padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
   }
   .masthead .masthead-heading {
     font-size: 2.75rem;
@@ -49,38 +64,19 @@
   }
   /*END HEADER*/
 
-  /*Gradient color*/
-  .transition {
-    background-color: #272822;
-    background-image: linear-gradient(326deg, #222 0%, #e74c3c 74%);
-  }
 
-
-  /*START ABOUT*/
-  .page-section {
-    padding: 6rem 0;
-    margin-left: 3rem;
-    margin-right: 3rem
-  }
-  .page-section .page-section-heading {
-    font-size: 2.25rem;
-    line-height: 2rem;
-  }
-  /*END ABOUT*/
-
-
-  /*START SECTIONS*/
+   /*START SECTIONS*/
   .projects-section {
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 0rem 2rem;
   }
   
   .projects-section-header {
     max-width: 640px;
-    margin: 0 auto 6rem auto;
+    margin: 0 auto 3rem auto;
   }
 
-  /* "Automagic" image grid using no media queries */
+/* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -136,11 +132,21 @@
 /*END SECTIONS*/
 
 
+ /*START ABOUT*/
+ .page-section {
+  padding: 6rem 0;
+  margin-left: 3rem;
+  margin-right: 3rem
+}
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+/*END ABOUT*/
 
 
 
-
-  /*START FOOTER*/
+/*START FOOTER*/
   footer {
     font-weight: 300;
     display: flex;
@@ -154,13 +160,15 @@
     margin: 1rem;
   }
 
-  /*END FOOTER*/
+/*END FOOTER*/
 
+/**********************************END INDEX***********************************/
+
+
+/**********************************START SOFTWARE***********************************/
 
   /*STARTS PORTFOLIO ITEMS*/
-  .main-color {
-    color: #e74c3c;
-  }
+
   .page-section {
     padding: 6rem 0;
   }
@@ -220,4 +228,6 @@
     opacity: 1;
   }
 
-  /*STARTS PORTFOLIO ITEMS*/
+/*END PORTFOLIO ITEMS*/
+
+/**********************************END SOFTWARE***********************************/
