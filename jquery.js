@@ -1,9 +1,15 @@
-jQuery(document).ready(function($){
+$(document).ready(function(){
+  console.log('Funcionando');
+
+  txt = $("div.card p.card-text").text();
+  console.log(txt);
+
   $("#filter").on("keyup", function() {
     var g = $(this).val().toLowerCase();
-    $(".card .card-text p").each(function() {
+    $("div.card p.card-text").each(function() {
         var s = $(this).text().toLowerCase();
-        $(this).closest('.card')[ s.indexOf(g) !== -1 ? 'show' : 'hide' ]();
+        $(this).closest('.card-text')[ s.indexOf(g) !== -1 ? 'show' : 'hide' ]();
     });
   });
+
 });
