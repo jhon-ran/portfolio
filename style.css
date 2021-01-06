@@ -301,6 +301,13 @@
   font-size: 1.1rem;
 }
 
+
+#search-button {
+  width: 357px;
+  margin: auto;
+  padding-top: 20px;
+}
+
 /**********************************START PRESENTATIONS & PUBLICATIONS***********************************/
 
 
