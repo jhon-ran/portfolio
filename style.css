@@ -175,10 +175,6 @@
   margin: 0 auto 3rem auto;
 }
 
-.font-about {
-  font-size: 1.2rem;
-}
-
 /**********************************END ABOUT***********************************/
 
 
@@ -302,7 +298,7 @@
 
 .reference-indent {
   text-indent: -2em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /**********************************START PRESENTATIONS & PUBLICATIONS***********************************/
