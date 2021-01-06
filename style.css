@@ -21,6 +21,10 @@
   z-index: 99;
 }
 
+/*To avoid single words to break*/
+.text-nowrap {
+  white-space: nowrap;
+}
 
 /********************************END GLOBAL DECLARATIONS********************************/
 
@@ -325,10 +329,6 @@
   max-width: 600px;
   width: 85%;
   margin: 0 auto 3rem auto;
-}
-
-.community-text {
-  font-size: 2.2rem;
 }
 
 /**********************************END COMMUINITY PROJECT***********************************/
