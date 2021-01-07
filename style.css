@@ -320,6 +320,11 @@
   font-size: 1.1rem;
 }
 
+@media  only screen and (max-width: 600px){
+  .responsive-title h2 {
+    font-size: 2rem;
+  }
+}
 /**********************************END RESEARCH***********************************/
 
 
